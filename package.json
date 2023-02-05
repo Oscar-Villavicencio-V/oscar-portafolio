@@ -2,7 +2,7 @@
   "name": "portafolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://oscar-villavicencio-v.github.io/",
+  "homepage": "https://oscar-villavicencio-v.github.io/oscar-villavicencio-portafolio.github.io/build",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -18,10 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy":"npm rum build",
-    "deploy":"gh-pages -d build -r https://$POR_TOKEN@oscar-villavicencio-v.github.io/"
-  },
+    "eject": "react-scripts eject"
+    },
   "eslintConfig": {
     "extends": [
       "react-app",
