@@ -1,0 +1,449 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;500;600;700&family=Iceland&family=Kelly+Slab&family=Noto+Sans+JP:wght@100&family=Questrial&family=Rajdhani&family=Source+Sans+Pro:wght@200;300&display=swap');
+html{
+    background-image: linear-gradient(#d3e3ec9f, #ebf3f8a9),
+  url("./images/background.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  min-width: 100vh;
+  display:grid;
+}
+#App{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  
+
+}
+#gif{
+  position:fixed;
+  z-index:-1;
+  display:grid;
+  position:fixed;
+height:100%;
+width: 100%;
+  opacity: 18%;
+}
+
+/*FUENTES*/
+
+h2{
+  font-family: 'Iceland', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+p{
+  font-family: 'Iceland', cursive;
+  padding-left: 6%;
+  padding-right: 6%;
+  text-align: justify; 
+  font-size:x-large;
+}
+
+/* Home */
+
+#hnombre{
+  margin: 0px;
+  padding: 0px;
+  line-height: 60%;
+}
+h1{
+  font-family: 'Iceland', cursive;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-size: 400%;
+}
+#hperfil{
+  font-family: 'Iceland', cursive;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+  font-size:xx-large;
+}
+
+#imgNombre{
+  padding: 0px;
+border-radius: 50%;
+height: 5em;
+}
+#pperfil{
+  margin-left: 20%;
+  margin-right: 20%;
+  text-align: justify;
+}
+
+/*BARRA NAVEGACION*/
+
+tr{
+
+  position:fixed;
+  z-index:1;
+ background-color: none;
+ margin:0;
+ padding: 0;
+ height: 100%;
+ width: 50px;
+}
+li{
+
+  list-style: none;
+  display:grid;
+  position:static;
+}
+li a{
+  background-color:rgba(195, 169, 243, 0.301);
+  border-radius: 50%;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  list-style: none;
+}
+li :hover{
+background-color: rgba(117, 199, 231, 0.884);
+}
+li :active{
+  background-color: rgb(163, 82, 216);
+}
+
+/*PROYECTOS*/
+
+/*HABILIDADES*/
+table{
+  font-family: 'Iceland', cursive;
+  font-size: x-large;
+  align-items: center;
+ background-color: none;
+ margin: 0 auto;
+ padding: 0;
+ height: 100%;
+ width: 50px;
+}
+
+td a{
+  background-color:rgba(255, 255, 255, 0.301);
+  border-radius: 50%;
+  color: aliceblue;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  list-style: none;
+}
+td :hover{
+background-color: rgb(3, 57, 165);
+border-radius: 50%;
+}
+td :active{
+  background-color: rgb(105, 8, 196);
+  border-radius: 50%;
+}
+caption{
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+/*CONTACTO*/
+
+form{
+margin-top: 0%;
+margin-bottom: 0%;
+  padding: 6%;
+  height: 30em;
+  width: 80%;
+  background-image: linear-gradient(75deg, rgba(201, 237, 248, 0.596),rgba(145, 145, 170, 0.308));
+	letter-spacing: 0.4em;
+	font-size:.7em;
+  opacity: 90%;
+  border-radius: 8px;
+}
+
+input,
+span,
+label,
+textarea {
+  font-family: 'Iceland', cursive;
+  display: block;
+  margin: 30px;
+  padding: 20px;
+  border: none;
+}
+textarea:focus,
+input:focus {
+  outline: 0;
+}
+input.word,
+textarea.word {
+  font-size:xx-large;
+  font-weight: 300;
+  border-radius: 2px;
+  margin: 0;
+  width: 80%;
+  background: rgba(255, 255, 255, 0.089);
+  transition: padding-top 0.2s ease, margin-top 0.2s ease;
+  overflow-x: hidden; /* Hack to make "rows" attribute apply in Firefox. */
+}
+/* Underlinea y Placeholder */
+
+input.word + label,
+textarea.word + label {
+  display: block;
+  position: relative;
+  white-space: nowrap;
+  padding: 0;
+  margin: 0;
+  width: 10%;
+  border-top: 1px solid red;
+  -webkit-transition: width 0.4s ease;
+  transition: width 0.4s ease;
+  height: 0px;
+  color:currentColor;
+}
+
+input.word:focus + label,
+textarea.word:focus + label {
+  width: 85%;
+}
+
+input.word:focus,
+input.word:valid {
+  padding-top: 35px;
+}
+
+textarea.word:valid,
+textarea.word:focus {
+  margin-top: 35px;
+}
+
+input.word:focus + label > span,
+input.word:valid + label > span {
+  top: -100px;
+  font-size: 18px;
+}
+
+textarea.word:focus + label > span,
+textarea.word:valid + label > span {
+  top: -120px;
+  font-size: 18px;
+}
+
+input.word:valid + label,
+textarea.word:valid + label {
+  border-color: rgb(4, 161, 4);
+}
+
+input.word:invalid,
+textarea.word:invalid {
+  box-shadow: none;
+}
+
+input.word + label > span,
+textarea.word + label > span {
+  font-weight: 300;
+  margin: 0;
+  position: absolute;
+  font-size: 22px;
+  top: -66px;
+  left: 0px;
+  z-index: -1;
+  -webkit-transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+  transition: top 0.2s ease, font-size 0.2s ease, color 0.2s ease;
+}
+
+/* 
+} */
+
+
+input.word:valid ~ input[type="submit"], textarea.word:valid ~ input[type="submit"] {
+  -webkit-animation: appear 1s forwards;
+  animation: appear 1s forwards;
+}
+
+input.word:invalid ~ input[type="submit"], textarea.word:invalid ~ input[type="submit"] {
+  display: none;
+}
+
+@-webkit-keyframes appear {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes appear {
+  100% {
+    opacity: 1;
+  }
+}
+
+button {
+float: right;
+cursor: pointer;
+background-color: #c4dbeb;
+border-color:rgb(85, 125, 143);
+border-radius: 7px;
+color:rgb(46, 49, 53);
+font-size: medium;
+  display: block;
+width: 7.5em;
+height: 2.5em;
+font-family: 'Iceland', cursive;
+  padding: 2px;
+}
+
+
+/*GALERIA*/
+
+a {
+	cursor: pointer;
+}
+a:hover {
+	text-decoration: none;
+}
+
+.section{
+  justify-items: center;
+  position:sticky;
+  width: 50%;
+  display:block;
+  margin: 5%;
+  margin-left: 23%;
+}
+.full-height{
+  display:contents;
+  justify-items: center;
+width: 90%;
+
+}
+.over-hide{
+  overflow: hidden;
+}
+.padding-tb{
+  padding: 0 0;
+}
+[type="radio"]:checked,
+[type="radio"]:not(:checked){
+  position: absolute;
+  display: none;
+}
+.checkbox:checked + label,
+.checkbox:not(:checked) + label{
+  position: relative;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+  margin-right: 6px;
+  margin-left: 6px;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border: 3px solid #729fbd;
+  background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  background-image: url('./images/geo.png');
+  animation: border-transform 6s linear infinite alternate forwards;
+    -webkit-animation-play-state: paused;
+    -moz-animation-play-state: paused;
+    animation-play-state: paused;
+}
+.checkbox.scnd + label{
+  background-image: url('./images/proyecto2.png');
+}
+.checkbox.thrd + label{
+  background-image: url('./images/proyecto3.png');
+}
+.checkbox.foth + label{
+  background-image: url('./images/proyecto4.png');
+}
+.checkbox.fith + label{
+  background-image: url('./images/proyecto5.png');
+}
+
+.checkbox:checked + label{
+  box-shadow: 0 8px 25px 0 rgba(16,39,112,.3);
+  transform: scale(1.3);
+    -webkit-animation-play-state: running;
+    -moz-animation-play-state: running;
+    animation-play-state: running;
+}
+.slider-height-padding {
+  padding-top: 440px;
+}
+
+ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  z-index: 100;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+ul dd {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: block;
+  z-index: 100;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  height: 400px;
+  border: 5px solid #a4c9e2;
+  background-size: cover;
+  background-position: center;
+  background-image: url('./images/geo.png');
+  border-radius: 50%;
+  box-sizing: border-box;
+  writing-mode: vertical-rl;
+  opacity: 0;
+  pointer-events: none;
+  box-shadow: 0 8px 25px 0 rgba(16,39,112,.1);
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+ul dd:nth-child(2) {
+  background-image: url('./images/proyecto2.png');
+}
+ul dd:nth-child(3) {
+  background-image: url('./images/proyecto3.png');
+}
+ul dd:nth-child(4) {
+  background-image: url('./images/proyecto4.png');
+}
+ul dd:nth-child(5) {
+  background-image: url('./images/proyecto5.png');
+}
+
+.checkbox.frst:checked ~ ul dd:nth-child(1) {
+  opacity: 1;
+  pointer-events: auto;
+  border-radius: 16px;
+}
+.checkbox.scnd:checked ~ ul dd:nth-child(2) {
+  opacity: 1;
+  pointer-events: auto;
+  border-radius: 16px;
+}
+.checkbox.thrd:checked ~ ul dd:nth-child(3) {
+  opacity: 1;
+  pointer-events: auto;
+  border-radius: 16px;
+}
+.checkbox.foth:checked ~ ul dd:nth-child(4) {
+  opacity: 1;
+  pointer-events: auto;
+  border-radius: 16px;
+}
+.checkbox.fith:checked ~ ul dd:nth-child(5) {
+  opacity: 1;
+  pointer-events: auto;
+  border-radius: 16px;
+}
