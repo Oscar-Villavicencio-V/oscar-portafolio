@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/oscar-villavicencio-portafolio.github.io/build/static/css/main.e33c1bc4.css",
-    "main.js": "/oscar-villavicencio-portafolio.github.io/build/static/js/main.a8f4e1fd.js",
-    "static/js/787.ae0d8d37.chunk.js": "/oscar-villavicencio-portafolio.github.io/build/static/js/787.ae0d8d37.chunk.js",
-    "static/media/geo.png": "/oscar-villavicencio-portafolio.github.io/build/static/media/geo.772f49fb363dc1b3cc6c.png",
-    "static/media/proyecto2.png": "/oscar-villavicencio-portafolio.github.io/build/static/media/proyecto2.7e48d50b14d911729a95.png",
-    "static/media/background.jpg": "/oscar-villavicencio-portafolio.github.io/build/static/media/background.1087da06f0b393974c3f.jpg",
-    "static/media/photo.png": "/oscar-villavicencio-portafolio.github.io/build/static/media/photo.3b432c301b839a3d0aa8.png",
-    "static/media/proyecto5.png": "/oscar-villavicencio-portafolio.github.io/build/static/media/proyecto5.5f0b3bffb4a0d8ee0b1a.png",
-    "static/media/proyecto4.png": "/oscar-villavicencio-portafolio.github.io/build/static/media/proyecto4.41de7ec340a8a3df7cf5.png",
-    "static/media/proyecto3.png": "/oscar-villavicencio-portafolio.github.io/build/static/media/proyecto3.4b5c65c8b509304153d4.png",
-    "static/media/gif4.gif": "/oscar-villavicencio-portafolio.github.io/build/static/media/gif4.880d23c56bcdb73d907a.gif",
-    "index.html": "/oscar-villavicencio-portafolio.github.io/build/index.html",
-    "main.e33c1bc4.css.map": "/oscar-villavicencio-portafolio.github.io/build/static/css/main.e33c1bc4.css.map",
-    "main.a8f4e1fd.js.map": "/oscar-villavicencio-portafolio.github.io/build/static/js/main.a8f4e1fd.js.map",
-    "787.ae0d8d37.chunk.js.map": "/oscar-villavicencio-portafolio.github.io/build/static/js/787.ae0d8d37.chunk.js.map"
+    "main.css": "/oscar-portafolio/build/static/css/main.40e1b115.css",
+    "main.js": "/oscar-portafolio/build/static/js/main.a4920a8c.js",
+    "static/js/787.ae0d8d37.chunk.js": "/oscar-portafolio/build/static/js/787.ae0d8d37.chunk.js",
+    "static/media/geo.png": "/oscar-portafolio/build/static/media/geo.772f49fb363dc1b3cc6c.png",
+    "static/media/proyecto2.png": "/oscar-portafolio/build/static/media/proyecto2.7e48d50b14d911729a95.png",
+    "static/media/background.jpg": "/oscar-portafolio/build/static/media/background.1087da06f0b393974c3f.jpg",
+    "static/media/photo.png": "/oscar-portafolio/build/static/media/photo.3b432c301b839a3d0aa8.png",
+    "static/media/proyecto5.png": "/oscar-portafolio/build/static/media/proyecto5.5f0b3bffb4a0d8ee0b1a.png",
+    "static/media/proyecto4.png": "/oscar-portafolio/build/static/media/proyecto4.41de7ec340a8a3df7cf5.png",
+    "static/media/proyecto3.png": "/oscar-portafolio/build/static/media/proyecto3.4b5c65c8b509304153d4.png",
+    "static/media/gif4.gif": "/oscar-portafolio/build/static/media/gif4.880d23c56bcdb73d907a.gif",
+    "index.html": "/oscar-portafolio/build/index.html",
+    "main.40e1b115.css.map": "/oscar-portafolio/build/static/css/main.40e1b115.css.map",
+    "main.a4920a8c.js.map": "/oscar-portafolio/build/static/js/main.a4920a8c.js.map",
+    "787.ae0d8d37.chunk.js.map": "/oscar-portafolio/build/static/js/787.ae0d8d37.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e33c1bc4.css",
-    "static/js/main.a8f4e1fd.js"
+    "static/css/main.40e1b115.css",
+    "static/js/main.a4920a8c.js"
   ]
 }
